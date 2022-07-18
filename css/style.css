@@ -1,0 +1,119 @@
+/* VERSION MOBILE */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a,
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+.gris {
+    background-color: #f6f6f6;
+}
+
+#lieu {
+    background-color: #eaeaea;
+}
+
+/* #entete_bas {
+
+} */
+
+#explorer {
+    background-color: #e370da;
+    color: white;
+
+    border-radius: 30px;
+}
+
+#explorer a {
+    color: inherit;
+    /* color: white; */
+}
+
+.fonctionnement_cards {
+    border-radius: 25px;
+}
+
+.numeros {
+    background-color: #9356dc;
+    border-radius: 50%;
+    color: white;
+    height: 20px;
+    width: 20px;
+}
+
+/* #Restaurants {
+
+} */
+
+.restaurants_cards {
+    background-color: white;
+    border-radius: 30px;
+}
+
+
+/* img: provisoire */
+img {
+    width: 40%;
+    height: 40%;
+}
+
+footer {
+    background-color: #353535;
+    color: white;
+}
+#liens-footer li a {
+    color: inherit;
+}
+
+#logo_texte {
+    font-family: 'Shrikhand', cursive;
+
+}
+
+/* Tablette */
+@media screen and (min-width: 768px) {
+
+}
+
+/* Desktop */
+@media screen and (min-width: 992px) {
+
+}
+
+/* Large Desktop */
+@media screen and (min-width: 1400px) {
+
+}
+
+/* COULEURS ______________
+
+Explorer nos (haut)
+#e370da
+
+Choisissez un (chiffres)
+#9356dc
+
+Dégustez au (fond)
+#ff79da
+
+Restaurants: nouveau (fond)
+#99e2d0
+
+(Restaurants: nouveau (police)
+#008766)
+
+
+
+
+
+*/
