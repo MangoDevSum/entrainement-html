@@ -1,7 +1,10 @@
 /* VERSION MOBILE */
 
+/* General */
+
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 a,
@@ -9,6 +12,7 @@ a:visited {
     color: black;
     text-decoration: none;
 }
+
 
 ul {
     list-style-type: none;
@@ -19,66 +23,193 @@ ul {
     background-color: #f6f6f6;
 }
 
+/* En-tete */
+
+.logo_header {
+    box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.185);
+    margin-bottom: 3px;
+    padding: 3% 0;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.logo_header img {
+    height: 50%;
+    width: 50%;
+}
+
+
 #lieu {
     background-color: #eaeaea;
+    font-weight: bold;
+    margin: 0;
+    padding: 4% 0;
+
+    display: flex;
+    justify-content: center;
 }
 
-/* #entete_bas {
 
-} */
+#lieu i {
+    margin-right: 4%;
+}
+
+
+#entete_bas {
+    padding: 10% 4%;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#entete_bas h1 {
+    margin: 0%;
+}
+
+
+#decouvrez {
+    margin: 0%;
+    padding: 4% 0;
+}
+
 
 #explorer {
-    background-color: #e370da;
-    color: white;
-
     border-radius: 30px;
+    box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.377);
+    color: white;
+    background: linear-gradient(#FF79DA, #9356DC);
+    padding: 4% 0;
+    text-align: center;
+    width: 60%;
 }
+
 
 #explorer a {
     color: inherit;
     /* color: white; */
 }
 
+/* main */
+/* section Fonctionnement */
+
+#Fonctionnement {
+    padding: 8% 5%;
+}
+
+#Fonctionnement h2 {
+    margin: 0;
+    padding: 5% 0 3%;
+}
+
+
 .fonctionnement_cards {
     border-radius: 25px;
+    box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.185);
+    font-weight: bold;
+    padding: 4%;
+    margin: 6% 0;
+
+    display: flex;
+    flex-direction: row;
+}
+
+
+.fonctionnement_cards i {
+    font-size: 105%;
+    padding: 4%;
+
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .numeros {
     background-color: #9356dc;
     border-radius: 50%;
     color: white;
-    height: 20px;
-    width: 20px;
+    font-size: smaller;
+    font-weight: lighter;
+    height: 22px;
+    margin-left: -22px;
+    text-align: center;
+    width: 22px;
+
 }
 
-/* #Restaurants {
+/* Section Restaurants */
 
-} */
+#Restaurants {
+    padding: 8% 5% 12%;
+
+    display: flex;
+    flex-direction: column;
+}
 
 .restaurants_cards {
     background-color: white;
-    border-radius: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.115);
+    margin-bottom: 5%;
+    width: 337px;
 }
 
 
-/* img: provisoire */
-img {
-    width: 40%;
-    height: 40%;
+.restaurants_cards img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 337px;
+    height: 170px;
+    object-fit: cover;
 }
+
+
+.restaurants_cards h4 {
+    margin: 0;
+    padding: 14px 0 4px 14px;
+}
+
+.restaurants_cards p {
+    margin: 0;
+    padding: 0 0 14px 14px;
+}
+
+/* footer */
 
 footer {
     background-color: #353535;
     color: white;
+    padding: 3% 7%;
 }
+
+#liens-footer {
+    padding-left: 0;
+}
+
+
+#liens-footer li {
+    padding: 1.4% 0;
+}
+
 #liens-footer li a {
     color: inherit;
 }
 
+
+/* #liens-footer li i {
+    margin-right: 1%;
+} */
+
+
 #logo_texte {
     font-family: 'Shrikhand', cursive;
-
 }
+
 
 /* Tablette */
 @media screen and (min-width: 768px) {
@@ -110,10 +241,7 @@ Restaurants: nouveau (fond)
 #99e2d0
 
 (Restaurants: nouveau (police)
-#008766)
+#008766) */
 
 
 
-
-
-*/
