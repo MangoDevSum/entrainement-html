@@ -7,6 +7,7 @@ body {
     margin: 0;
 }
 
+
 a,
 a:visited {
     color: black;
@@ -102,6 +103,7 @@ ul {
     padding: 8% 5%;
 }
 
+
 #Fonctionnement h2 {
     margin: 0;
     padding: 5% 0 3%;
@@ -129,6 +131,7 @@ ul {
     vertical-align: middle;
 }
 
+
 .numeros {
     background-color: #9356dc;
     border-radius: 50%;
@@ -150,6 +153,7 @@ ul {
     display: flex;
     flex-direction: column;
 }
+
 
 .restaurants_cards {
     background-color: white;
@@ -174,6 +178,7 @@ ul {
     padding: 14px 0 4px 14px;
 }
 
+
 .restaurants_cards p {
     margin: 0;
     padding: 0 0 14px 14px;
@@ -187,14 +192,21 @@ footer {
     padding: 3% 7%;
 }
 
+
 #liens-footer {
     padding-left: 0;
+}
+
+
+#logo_texte {
+    font-family: 'Shrikhand', cursive;
 }
 
 
 #liens-footer li {
     padding: 1.4% 0;
 }
+
 
 #liens-footer li a {
     color: inherit;
@@ -205,10 +217,57 @@ footer {
     margin-right: 1%;
 } */
 
+/* pages de Restaurants */
 
-#logo_texte {
-    font-family: 'Shrikhand', cursive;
+
+#banniere img {
+    height: 30%;
+    width: 30%;
 }
+
+
+#restaurants_main {
+    background-color: #f6f6f6;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 3%;
+}
+
+
+#restaurants_main h1 {
+    font-family: 'Shrikhand', cursive;
+    font-size: 28px;
+}
+
+
+#restaurants_main h2 {
+    color: grey;
+    font-size: 18px;
+}
+
+
+.menus_items {
+    border-radius: 25px;
+    box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.185);
+    font-weight: bold;
+    padding: 4%;
+    margin: 6% 0;
+
+    display: flex;
+    /* flex-direction: column; */
+}
+
+
+#commander {
+        border-radius: 30px;
+        box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.377);
+        color: white;
+        background: linear-gradient(#FF79DA, #9356DC);
+        padding: 4% 0;
+        text-align: center;
+        width: 60%;
+}
+
 
 
 /* Tablette */
