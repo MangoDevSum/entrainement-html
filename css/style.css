@@ -167,9 +167,9 @@ ul {
 .restaurants_cards img {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    width: 337px;
     height: 170px;
     object-fit: cover;
+    width: 337px;
 }
 
 
