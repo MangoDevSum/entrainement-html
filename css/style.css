@@ -114,6 +114,7 @@ ul {
     border-radius: 25px;
     box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.185);
     font-weight: bold;
+
     padding: 4%;
     margin: 6% 0;
 
@@ -123,12 +124,23 @@ ul {
 
 
 .fonctionnement_cards i {
+    color: #7e7e7e;
     font-size: 105%;
     padding: 4%;
 
     display: inline-block;
     text-align: center;
     vertical-align: middle;
+}
+
+
+.fonctionnement_cards:hover {
+    background-color: #f5edff;
+}
+
+
+.fonctionnement_cards:hover i {
+    color: #9356dc;
 }
 
 
@@ -142,8 +154,8 @@ ul {
     margin-left: -22px;
     text-align: center;
     width: 22px;
-
 }
+
 
 /* Section Restaurants */
 
@@ -160,6 +172,7 @@ ul {
     border-radius: 15px;
     box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.115);
     margin-bottom: 5%;
+    position: relative;
     width: 100%;
 }
 
@@ -178,6 +191,27 @@ ul {
     padding: 14px 0 4px 14px;
 }
 
+.nouveau {
+    background-color: #99E2D0;
+    color: #008766;
+    padding: 2px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.fa-solid.fa-heart {
+    position: absolute;
+    bottom: 35px;
+    right: 15px;
+}
+
+.fa-regular.fa-heart {
+    position: absolute;
+    bottom: 35px;
+    right: 15px;
+    display: none;
+}
 
 .restaurants_cards p {
     margin: 0;
@@ -284,23 +318,4 @@ footer {
 @media screen and (min-width: 1400px) {
 
 }
-
-/* COULEURS ______________
-
-Explorer nos (haut)
-#e370da
-
-Choisissez un (chiffres)
-#9356dc
-
-Dégustez au (fond)
-#ff79da
-
-Restaurants: nouveau (fond)
-#99e2d0
-
-(Restaurants: nouveau (police)
-#008766) */
-
-
 
