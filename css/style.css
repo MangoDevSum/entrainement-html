@@ -120,6 +120,7 @@ ul {
 
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 
@@ -150,10 +151,12 @@ ul {
     color: white;
     font-size: smaller;
     font-weight: lighter;
-    height: 22px;
+    /* height: 22px; */
+    line-height:22px;
+    width: 22px;
     margin-left: -22px;
     text-align: center;
-    width: 22px;
+    vertical-align: middle;
 }
 
 
@@ -253,7 +256,6 @@ footer {
 #liens-footer li a {
     color: inherit;
 }
-
 
 /* #liens-footer li i {
     margin-right: 1%;
