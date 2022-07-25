@@ -28,17 +28,36 @@ ul {
 
 .logo_header {
     box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.185);
-    margin-bottom: 3px;
-    padding: 3% 0;
+    /* N'appliquer le margin-bottom que sur accueil */
+    /* margin-bottom: 3px; */
+    margin: 0; /* padding dans img */
 
     display: flex;
     justify-content: center;
-}
 
+    position: relative;
+}
+.logo_header a {
+    /* le mettre à gauche */
+    position: absolute;
+    left: 0;
+    padding: 0 4%; /* utiliser du padding pour faciliter le click */
+
+    /* centrer verticalement la flèche à l'intérieur */
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.logo_header a i {
+    display: inline-block;
+    /* fontsize exceptionnellement relative pour accompagner le logo */
+    font-size: 4vw;
+}
 
 .logo_header img {
     height: 50%;
     width: 50%;
+    padding: 3%;
 }
 
 
