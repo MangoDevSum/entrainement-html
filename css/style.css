@@ -27,7 +27,7 @@ ul {
 /* En-tete */
 
 .logo_header {
-    box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.185);
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.303);
     /* N'appliquer le margin-bottom que sur accueil */
     /* margin-bottom: 3px; */
     margin: 0; /* padding dans img */
@@ -37,6 +37,8 @@ ul {
 
     position: relative;
 }
+
+
 .logo_header a {
     /* le mettre à gauche */
     position: absolute;
@@ -48,16 +50,19 @@ ul {
     display: flex;
     align-items: center;
 }
+
+
 .logo_header a i {
     display: inline-block;
     /* fontsize exceptionnellement relative pour accompagner le logo */
     font-size: 4vw;
 }
 
+
 .logo_header img {
     height: 50%;
     width: 50%;
-    padding: 3%;
+    padding: 5% 0 3%;
 }
 
 
@@ -78,7 +83,7 @@ ul {
 
 
 #entete_bas {
-    padding: 10% 4%;
+    padding: 10% 4% 12%;
     text-align: center;
 
     display: flex;
@@ -90,6 +95,7 @@ ul {
 
 #entete_bas h1 {
     margin: 0%;
+    padding: 0 10%;
 }
 
 
@@ -101,10 +107,10 @@ ul {
 
 #explorer {
     border-radius: 30px;
-    box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.377);
+    box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.172);
     color: white;
     background: linear-gradient(#FF79DA, #9356DC);
-    padding: 4% 0;
+    padding: 4.5% 2%;
     text-align: center;
     width: 60%;
 }
@@ -119,7 +125,7 @@ ul {
 /* section Fonctionnement */
 
 #Fonctionnement {
-    padding: 8% 5%;
+    padding: 8% 5% 11%;
 }
 
 
@@ -134,8 +140,8 @@ ul {
     box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.185);
     font-weight: bold;
 
-    padding: 4%;
-    margin: 6% 0;
+    padding: 4% 4% 3.5%;
+    margin: 6% 0 6% 4.5%;
 
     display: flex;
     flex-direction: row;
@@ -145,7 +151,8 @@ ul {
 
 .fonctionnement_cards i {
     color: #7e7e7e;
-    font-size: 105%;
+    font-size: 120%;
+    margin: 0 4% 0 3%;
     padding: 4%;
 
     display: inline-block;
@@ -202,7 +209,7 @@ ul {
 .restaurants_cards img {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    height: 170px;
+    height: 180px;
     object-fit: cover;
     width: 100%;
 }
@@ -264,6 +271,7 @@ footer {
 
 #logo_texte {
     font-family: 'Shrikhand', cursive;
+    margin: 2.5% 0;
 }
 
 
@@ -276,11 +284,11 @@ footer {
     color: inherit;
 }
 
-/* #liens-footer li i {
-    margin-right: 1%;
-} */
+#liens-footer li i {
+    margin-right: 1.5%;
+}
 
-/* pages de Restaurants */
+/* _________pages de Restaurants_________ */
 
 #banniere {
     margin: 0;
@@ -289,7 +297,8 @@ footer {
 }
 
 #banniere img {
-    height: auto;
+    /* height: auto; */
+    /* object-fit: cover; */
     width: 100%;
 }
 
@@ -299,7 +308,10 @@ footer {
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     padding: 3%;
-    margin-top: 55%;
+    margin-top: 60%;
+
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -315,6 +327,15 @@ footer {
 }
 
 
+#restaurants_main hr {
+    background-color: #99E2D0;
+    border: none;
+    height: 3px;
+    margin: 0;
+    width: 10%;
+}
+
+
 .menus_items {
     border-radius: 25px;
     box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.185);
@@ -323,20 +344,49 @@ footer {
     margin: 6% 0;
 
     display: flex;
-    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+
 }
 
+
+.menus_items h3 {
+    margin: 1% 0;
+    width: 100%;
+}
+
+
+.menus_items p {
+    margin: 1% 0;
+    padding-right: 2%;
+}
+
+
+/* hover des items de menus */
+
+.menus_items i {
+    background-color: #99e2d07c;
+    margin: 0;
+    width: 13%;
+}
+
+.fa-circle-check {
+    color: #99E2D0;
+}
+
+
+/* bouton commander */
 
 #commander {
         border-radius: 30px;
         box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.377);
-        color: white;
         background: linear-gradient(#FF79DA, #9356DC);
+        color: white;
+        margin: 8% auto;
         padding: 4% 0;
         text-align: center;
         width: 60%;
 }
-
 
 
 /* Tablette */
