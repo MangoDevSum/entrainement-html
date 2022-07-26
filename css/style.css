@@ -244,8 +244,8 @@ ul {
     /* color: #FF79DA; */
     background: linear-gradient(#9356DC, #FF79DA);
     -webkit-background-clip: text;
-    /* -moz-background-clip: text;
-    background-clip: text; */
+    -moz-background-clip: text;
+    background-clip: text;
    /* -webkit-text-fill-color:transparent; */
     -webkit-text-stroke: 0px black;
 }
