@@ -337,46 +337,69 @@ footer {
 
 
 .menus_items {
-    border-radius: 25px;
+    border-radius: 15px;
     box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.185);
     font-weight: bold;
-    padding: 4%;
     margin: 6% 0;
 
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-
 }
 
+.menus_items_hors_coche {
+    padding: 3% 4%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.hors_coche_gauche p {
+    font-weight: normal;
+}
+
+.hors_coche_droite {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-right: 3%;
+}
+
+.menus_items .coche {
+    display: none;
+}
+
+/* hover des items de menus */
+.menus_items:hover .coche {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #99E2D0;
+    width: 17%;
+}
+.coche i {
+    display: block;
+    text-align: center;
+    color: #99E2D0;
+    background-color: white;
+    border-radius: 50%;
+    -webkit-text-stroke: 1px;
+    font-size: 3vw;
+    line-height: 5vw;
+    width: 5vw;
+}
 
 .menus_items h3 {
     margin: 1% 0;
     width: 100%;
 }
 
-
 .menus_items p {
     margin: 1% 0;
-    padding-right: 2%;
-}
-
-
-/* hover des items de menus */
-
-.menus_items i {
-    background-color: #99e2d07c;
-    margin: 0;
-    width: 13%;
-}
-
-.fa-circle-check {
-    color: #99E2D0;
 }
 
 
 /* bouton commander */
-
 #commander {
     border-radius: 30px;
     box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.377);
