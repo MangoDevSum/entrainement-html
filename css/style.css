@@ -430,6 +430,8 @@ footer {
     padding: 4% 0;
     text-align: center;
     width: 60%;
+
+    display: block;
 }
 
 
