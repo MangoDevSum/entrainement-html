@@ -229,19 +229,20 @@ ul {
     right: 10px;
 }
 
-.restaurants_cards i /* .fa-solid.fa-heart */  {
+.restaurants_cards i.coeur {
     position: absolute;
     bottom: 35px;
     right: 15px;
 
-    color: transparent;
-    -webkit-text-stroke: 2px black;
-
     font-size: x-large;
 }
 
-.restaurants_cards i:hover /* .fa-solid.fa-heart */  {
-    /* color: #FF79DA; */
+/* Commun à tous les coeurs */
+.coeur {
+    color: transparent;
+    -webkit-text-stroke: 2px black;
+}
+.coeur:hover {
     background: linear-gradient(#9356DC, #FF79DA);
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -318,8 +319,15 @@ footer {
 #restaurants_main h1 {
     font-family: 'Shrikhand', cursive;
     font-size: 28px;
+
+    position: relative;
 }
 
+#restaurants_main h1 i.coeur {
+    position: absolute;
+    right: 5%;
+    top: 13%;
+}
 
 #restaurants_main h2 {
     color: grey;
