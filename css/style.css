@@ -343,6 +343,7 @@ footer {
     margin: 6% 0;
 
     display: flex;
+    overflow: hidden;
 }
 
 .menus_items_hors_coche {
@@ -351,10 +352,19 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     flex-grow: 1;
+    overflow: hidden;
+}
+.hors_coche_gauche {
+    flex-shrink: 1;
+    flex-wrap: nowrap;
+    overflow: hidden;
 }
 
 .hors_coche_gauche p {
     font-weight: normal;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .hors_coche_droite {
@@ -369,6 +379,9 @@ footer {
 }
 
 /* hover des items de menus */
+.menus_items:hover .menus_items_hors_coche {
+    width: 83%;
+}
 .menus_items:hover .coche {
     display: inline-flex;
     align-items: center;
