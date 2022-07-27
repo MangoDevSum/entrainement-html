@@ -436,9 +436,75 @@ footer {
 
 
 /* Tablette */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
+
+    /* ACCUEIL */
+
+    #Restaurants h2 {
+        width: 90%;
+    }
+
+    #Restaurants {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .restaurants_cards {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        /* height: 200px; */
+        width: 40%;
+    }
+
+    /* PAGES RESTAURANTS */
+
+    body p {
+        font-size: 130%;
+    }
+
+    .logo_header img {
+        height: 40%;
+        width: 40%;
+        padding: 5% 0 3%;
+    }
+
+    #restaurants_main {
+        margin-top: 40%;
+    }
+
+    #restaurants_main h1 {
+        font-size: 180%;
+    }
+
+    #restaurants_main h2 {
+        font-size: 160%;
+    }
+
+    #restaurants_main h3 {
+        font-size: 140%;
+    }
+
+    /* marche pas quand je regroupe les h */
+
+    .menus_items_hors_coche {
+        padding: 5% 4%;
+    }
+
+    .hors_coche_gauche h3 {
+        padding-bottom: 2%;
+    }
+
+    .hors_coche_gauche p {
+        padding-top: 2%;
+    }
+
+    .hors_coche_droite p {
+        padding-bottom: 2%;
+    }
 
 }
+
 
 /* Desktop */
 @media screen and (min-width: 992px) {
