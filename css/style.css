@@ -422,6 +422,18 @@ footer {
     width: 5vw;
 }
 
+@keyframes tour_du_cadran {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.menus_items:hover .coche i {
+    animation: tour_du_cadran 0.5s 1 linear;
+}
+
 .menus_items h3 {
     margin: 1% 0;
     width: 100%;
