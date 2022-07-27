@@ -400,6 +400,7 @@ footer {
 .menus_items:hover .menus_items_hors_coche {
     width: 83%;
 }
+
 .menus_items:hover .coche {
     display: inline-flex;
     align-items: center;
@@ -408,6 +409,7 @@ footer {
     background-color: #99E2D0;
     width: 17%;
 }
+
 .coche i {
     display: block;
     text-align: center;
