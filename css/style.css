@@ -423,6 +423,12 @@ footer {
     width: 5vw;
 }
 
+/* Deux choix qui marchent:
+    - propriétés dans @keyframes appliquées par animation
+    - propritétés mises directement + transition
+ */
+
+/* @keyframes & animation: */
 @keyframes tour_du_cadran {
     from {
         transform: rotate(0deg);
@@ -434,6 +440,15 @@ footer {
 .menus_items:hover .coche i {
     animation: tour_du_cadran 0.5s 1 linear;
 }
+
+/* transition: */
+/* .menus_items .coche i {
+    transform: rotate(0deg);
+}
+.menus_items:hover .coche i {
+    transform: rotate(360deg);
+    transition: transform 0.5s;
+} */
 
 .menus_items h3 {
     margin: 1% 0;
