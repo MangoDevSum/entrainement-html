@@ -218,10 +218,9 @@ ul {
     color: white;
     font-size: smaller;
     font-weight: lighter;
-    /* height: 22px; */
     line-height:22px;
     width: 22px;
-    margin-left: -22px;
+    margin-left: -6%;
     text-align: center;
     vertical-align: middle;
 }
@@ -521,6 +520,56 @@ footer {
 
     /* ACCUEIL */
 
+    body p {
+        font-size: 140%;
+    }
+
+    .logo_header img {
+        max-width: 400px;
+    }
+
+    h1,
+    #restaurants_main h1 {
+        font-size: 200%;
+    }
+
+    h2 {
+        font-size: 180%;
+    }
+
+    #restaurants_main h2 {
+        font-size: 160%;
+    }
+
+    h3 {
+        font-size: 150%;
+    }
+
+    h4 {
+        font-size: 140%;
+    }
+
+    #explorer {
+        border-radius: 50px;
+        font-size: 140%;
+    }
+
+    .fonctionnement_cards i {
+        font-size: 140%;
+    }
+
+    #Fonctionnement h2 {
+        padding-left: 4%;
+    }
+
+    .numeros {
+        border-radius: 50%;
+        font-size: 120%;
+        font-weight: lighter;
+        line-height:26px;
+        width: 26px;
+    }
+
     #Restaurants h2 {
         width: 90%;
     }
@@ -535,38 +584,12 @@ footer {
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
         /* height: 200px; */
-        width: 40%;
-    }
-
-    /* PAGES RESTAURANTS */
-
-    body p {
-        font-size: 130%;
-    }
-
-    .logo_header img {
-        height: 40%;
-        width: 40%;
-        padding: 5% 0 3%;
+        width: 44%;
     }
 
     #restaurants_main {
         margin-top: 40%;
     }
-
-    #restaurants_main h1 {
-        font-size: 180%;
-    }
-
-    #restaurants_main h2 {
-        font-size: 160%;
-    }
-
-    #restaurants_main h3 {
-        font-size: 140%;
-    }
-
-    /* marche pas quand je regroupe les h */
 
     .menus_items_hors_coche {
         padding: 5% 4%;
@@ -584,6 +607,33 @@ footer {
         padding-bottom: 2%;
     }
 
+    #commander {
+        border-radius: 50px;
+    }
+
+    /* remplacer padding par centrage */
+    footer #logo_texte {
+        padding-left: 40%;
+    }
+
+    footer nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    footer ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer li {
+        margin-right: 2%;
+    }
+
+    footer a {
+        font-size: 110%;
+    }
 }
 
 
