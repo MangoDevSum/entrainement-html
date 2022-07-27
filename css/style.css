@@ -393,7 +393,7 @@ footer {
 }
 
 .menus_items .coche {
-    display: none;
+    width: 0%;
 }
 
 /* hover des items de menus */
@@ -408,6 +408,7 @@ footer {
 
     background-color: #99E2D0;
     width: 17%;
+    transition: width 0.5s;
 }
 
 .coche i {
