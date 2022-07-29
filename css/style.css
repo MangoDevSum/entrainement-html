@@ -653,10 +653,9 @@ footer {
 
 /* Desktop */
 @media screen and (min-width: 992px) {
-
-    /* body p {
+    body p {
         font-size: 120%;
-    } */
+    }
 
     .logo_header img {
         padding: 1.5% 0 1%;
@@ -757,6 +756,14 @@ footer {
 
     #restaurants_main section {
         width: 32%;
+    }
+    #restaurants_main section > div {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    #restaurants_main section > div > div {
+        margin: 2% 0;
     }
 }
 
