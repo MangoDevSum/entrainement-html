@@ -765,6 +765,17 @@ footer {
     #restaurants_main section > div > div {
         margin: 2% 0;
     }
+
+    .menus_items:hover .coche {
+        width: 10%;
+    }
+
+    .coche i {
+        -webkit-text-stroke: 1px;
+        font-size: 1vw;
+        line-height: 3vw;
+        width: 3vw;
+    }
 }
 
 /* Large Desktop */
