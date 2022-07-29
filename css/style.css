@@ -169,6 +169,11 @@ ul {
     padding: 8% 5% 11%;
 }
 
+#liste_cards {
+    display: flex;
+    flex-direction: column;
+}
+
 
 #Fonctionnement h2 {
     margin: 0;
@@ -220,7 +225,7 @@ ul {
     font-weight: lighter;
     line-height:22px;
     width: 22px;
-    margin-left: -6%;
+    margin-left: -6.5%;
     text-align: center;
     vertical-align: middle;
 }
@@ -552,6 +557,8 @@ footer {
     #explorer {
         border-radius: 50px;
         font-size: 140%;
+        padding: 3% 2%;
+        width: 40%;
     }
 
     .fonctionnement_cards i {
@@ -640,6 +647,110 @@ footer {
 /* Desktop */
 @media screen and (min-width: 992px) {
 
+    /* body p {
+        font-size: 120%;
+    } */
+
+    .logo_header img {
+        padding: 1.5% 0 1%;
+    }
+
+    #lieu {
+        padding: 2% 0;
+    }
+
+    #entete_bas {
+        padding: 3% 4%;
+    }
+
+    #decouvrez {
+        padding: 2% 0;
+    }
+
+    #explorer {
+    padding: 2% 1%;
+    }
+
+    #Fonctionnement {
+        padding: 2%;
+        padding-left: 0;
+    }
+
+    #Fonctionnement h2 {
+        margin: 0;
+        padding-left: 0;
+        /* padding: 2% 0; */
+        text-align: center;
+        width: 100%;
+    }
+
+    #liste_cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 2%;
+    }
+
+    .fonctionnement_cards {
+        /* border-radius: 25px; */
+
+        padding: 1%;
+        margin: 0;
+         /* margin: 3% 0 3% 2%; */
+        width: 29%;
+    }
+    .numeros {
+        /* margin-top: 0;
+        margin-bottom: 0; */
+    }
+
+    .fonctionnement_cards i {
+        font-size: 130%;
+        line-height: 130%;
+        margin-left: 0;
+        /* padding-top: 0;
+        padding-bottom: 0; */
+        padding-right: 0;
+    }
+
+    .fonctionnement_cards i+p {
+        margin: 0%;
+        padding: 0 4%;
+        text-align: center;
+        flex-grow: 1;
+    }
+
+    #Restaurants {
+        padding: 2%;
+
+        /* display: flex;
+        flex-direction: column; */
+    }
+
+    footer {
+        padding: 1% 2%;
+    }
+
+    /* pages de restaurants desktop */
+
+    #restaurants_main {
+        margin-top: 180px;
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        justify-content: space-between;
+    }
+
+    #restaurants_main h1,
+    #restaurants_main section+a {
+        width: 100%;
+    }
+
+    #restaurants_main section {
+        width: 32%;
+    }
 }
 
 /* Large Desktop */
