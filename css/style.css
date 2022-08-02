@@ -733,7 +733,6 @@ footer {
 
     #Fonctionnement {
         padding: 2%;
-        padding-left: 0;
     }
 
     #Fonctionnement h2 {
@@ -759,13 +758,12 @@ footer {
         width: 29%;
     }
 
+    .numeros {
+        font-size: 100%;
+    }
 
     .fonctionnement_cards i {
-        font-size: 130%;
-        line-height: 130%;
         margin-left: 0;
-        /* padding-top: 0;
-        padding-bottom: 0; */
         padding-right: 0;
     }
 
@@ -793,6 +791,10 @@ footer {
 
 
     /* pages de restaurants desktop */
+
+    .logo_header a i {
+        font-size: 30px;
+    }
 
     #restaurants_main {
         margin-top: 180px;
