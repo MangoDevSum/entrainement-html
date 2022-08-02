@@ -648,6 +648,11 @@ footer {
         width: 100%;
     }
 
+    footer nav {
+        display: flex;
+        justify-content: center;
+    }
+
     footer #liens-footer {
         width: 100%;
 
@@ -782,6 +787,11 @@ footer {
         padding: 1% 2%;
     }
 
+    footer #liens-footer {
+        width: 80%;
+    }
+
+
     /* pages de restaurants desktop */
 
     #restaurants_main {
@@ -791,7 +801,8 @@ footer {
         flex-direction: row;
         flex-wrap: wrap;
 
-        justify-content: space-between;
+        justify-content: space-evenly;
+        column-gap: 20px;
     }
 
     #restaurants_main h1,
