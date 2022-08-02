@@ -521,7 +521,8 @@ footer {
 }
 
 
-/* Tablette */
+/* ___Tablette___ */
+
 @media screen and (min-width: 767px) {
 
     /* ACCUEIL */
@@ -652,14 +653,37 @@ footer {
 }
 
 
-/* Desktop */
+/* ___Desktop___ */
+
 @media screen and (min-width: 992px) {
     body p {
-        font-size: 120%;
+        font-size: 100%;
     }
 
     .logo_header img {
         padding: 1.5% 0 1%;
+        max-width: 250px;
+    }
+
+    h1,
+    #restaurants_main h1 {
+        font-size: 150%;
+    }
+
+    h2 {
+        font-size: 130%;
+    }
+
+    #restaurants_main h2 {
+        font-size: 130%;
+    }
+
+    h3 {
+        font-size: 120%;
+    }
+
+    h4 {
+        font-size: 110%;
     }
 
     #lieu {
@@ -675,7 +699,9 @@ footer {
     }
 
     #explorer {
-    padding: 2% 1%;
+    font-size: 100%;
+    padding: 1% 1.5%;
+    width: 20%;
     }
 
     #Fonctionnement {
@@ -685,8 +711,7 @@ footer {
 
     #Fonctionnement h2 {
         margin: 0;
-        padding-left: 0;
-        /* padding: 2% 0; */
+        padding: 1% 0;
         text-align: center;
         width: 100%;
     }
@@ -774,6 +799,12 @@ footer {
         line-height: 3vw;
         width: 3vw;
     }
+
+    #commander {
+        font-size: 100%;
+        padding: 1%;
+        width: 20%;
+        }
 }
 
 /* Large Desktop */
