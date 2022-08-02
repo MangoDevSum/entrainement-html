@@ -813,7 +813,8 @@ footer {
     }
 
     #restaurants_main section {
-        width: 32%;
+        width: 30%;
+        min-width: 360px;
     }
     #restaurants_main section > div {
         display: flex;
@@ -822,6 +823,24 @@ footer {
     }
     #restaurants_main section > div > div {
         margin: 2% 0;
+    }
+
+    .menus_items_hors_coche {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        height: 60px;
+    }
+
+    .hors_coche_gauche {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .hors_coche_gauche h3 {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
     }
 
     .menus_items:hover .coche {
