@@ -162,6 +162,13 @@ ul {
     /* color: white; */
 }
 
+
+#explorer:hover {
+    filter: brightness(105%);
+    box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.500);
+}
+
+
 /* main */
 /* section Fonctionnement */
 
@@ -248,6 +255,12 @@ ul {
     margin-bottom: 5%;
     position: relative;
     width: 100%;
+}
+
+.restaurants_cards:hover {
+    filter: brightness(110%);
+    box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.345);
+    transition: box-shadow 1s ease-out;
 }
 
 
@@ -520,6 +533,11 @@ footer {
     display: block;
 }
 
+#commander:hover {
+    filter: brightness(105%);
+    box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.500);
+}
+
 
 /* ___Tablette___ */
 
@@ -703,9 +721,9 @@ footer {
     }
 
     #explorer {
-    font-size: 100%;
-    padding: 1% 1.5%;
-    width: 20%;
+        font-size: 100%;
+        padding: 1% 1.5%;
+        width: 20%;
     }
 
     #Fonctionnement {
@@ -806,6 +824,8 @@ footer {
 
     #commander {
         font-size: 100%;
+        margin: 3% auto 1%;
+        padding: 4% 0;
         padding: 1%;
         width: 20%;
         }
