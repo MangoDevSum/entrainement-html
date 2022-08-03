@@ -364,6 +364,8 @@ footer {
     margin: 0;
     position: absolute;
     z-index: -1;
+    max-height: 800px;
+    overflow: hidden;
 }
 
 #banniere img {
