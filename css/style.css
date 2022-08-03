@@ -447,7 +447,7 @@ footer {
 .hors_coche_droite {
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: flex-end;
     padding-right: 3%;
 }
 
