@@ -854,6 +854,10 @@ footer {
         padding: 1% 2%;
     }
 
+    footer #logo_texte {
+        font-size: 170%;
+    }
+
     footer #liens-footer {
         width: 80%;
     }
@@ -863,7 +867,7 @@ footer {
     }
 
 
-    /* pages de restaurants desktop */
+    /* pages de restaurants Desktop */
 
     .logo_header a {
         padding: 0 2%;
@@ -901,7 +905,6 @@ footer {
     #restaurants_main hr {
         margin-bottom: 10px;
     }
-
 
     #restaurants_main section {
         width: 30%;
@@ -989,7 +992,7 @@ footer {
 
     #explorer {
         font-size: 130%;
-        padding: 1.5% 0;
+        padding: 1.2% 0;
         width: 23%;
     }
 
@@ -1007,7 +1010,7 @@ footer {
         font-size: 130%;
     }
 
-    /* Large Desktop */
+    /* pages de restaurants Large Desktop */
 
     .menus_items_hors_coche {
         height: 70px;
@@ -1015,9 +1018,8 @@ footer {
 
     #commander {
         font-size: 130%;
-        margin: 3% auto 1%;
-        padding: 1.5% 0;
-        width: 30%;
+        padding: 1.2% 0;
+        width: 27%;
     }
 
 }
