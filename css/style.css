@@ -768,16 +768,10 @@ footer {
         font-size: 160%;
     }
 
-    h2 {
-        font-size: 130%;
-    }
-
-    #restaurants_main h2 {
-        font-size: 130%;
-    }
-
+    h2,
+    #restaurants_main h2,
     h3 {
-        font-size: 120%;
+        font-size: 130%;
     }
 
     h4 {
@@ -852,12 +846,20 @@ footer {
         flex-direction: column; */
     }
 
+    .restaurants_cards img {
+        height: 240px;
+    }
+
     footer {
         padding: 1% 2%;
     }
 
     footer #liens-footer {
         width: 80%;
+    }
+
+    footer a {
+        font-size: 120%;
     }
 
 
@@ -948,11 +950,75 @@ footer {
         margin: 3% auto 1%;
         padding: 1.5% 0;
         width: 30%;
-        }
+    }
 }
 
 /* Large Desktop */
 @media screen and (min-width: 1400px) {
+
+    .banniere {
+        height: 500px;
+    }
+
+    body p {
+        font-size: 120%;
+    }
+
+    .logo_header img {
+        max-width: 300px;
+    }
+
+    h1,
+    #restaurants_main h1 {
+        font-size: 180%;
+    }
+
+    h2,
+    #restaurants_main h2,
+    h3 {
+        font-size: 150%;
+    }
+
+    h4 {
+        font-size: 130%;
+    }
+
+    #lieu {
+        padding: 1.5% 0;
+    }
+
+    #explorer {
+        font-size: 130%;
+        padding: 1.5% 0;
+        width: 23%;
+    }
+
+    .numeros {
+        font-size: 110%;
+    }
+
+    .restaurants_cards img {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        height: 300px;
+    }
+
+    footer a {
+        font-size: 130%;
+    }
+
+    /* Large Desktop */
+
+    .menus_items_hors_coche {
+        height: 70px;
+    }
+
+    #commander {
+        font-size: 130%;
+        margin: 3% auto 1%;
+        padding: 1.5% 0;
+        width: 30%;
+    }
 
 }
 
