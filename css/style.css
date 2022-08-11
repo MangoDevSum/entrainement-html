@@ -84,7 +84,7 @@ ul {
     /* le mettre à gauche */
     position: absolute;
     left: 0;
-    padding: 0 4%; /* utiliser du padding pour faciliter le click */
+    padding: 0 5%; /* utiliser du padding pour faciliter le click */
 
     /* centrer verticalement la flèche à l'intérieur */
     height: 100%;
@@ -96,7 +96,7 @@ ul {
 .logo_header a i {
     display: inline-block;
     /* fontsize exceptionnellement relative pour accompagner le logo */
-    font-size: 4vw;
+    font-size: 150%;
 }
 
 
@@ -119,7 +119,7 @@ ul {
 
 
 #lieu i {
-    margin-right: 7px;
+    margin-right: 4%;
 }
 
 
@@ -136,7 +136,8 @@ ul {
 
 #entete_bas h1 {
     margin: 0%;
-    padding: 0 10%;
+    font-size: 160%;
+    padding: 1% 10% 1.5%;
 }
 
 
@@ -151,6 +152,8 @@ ul {
     box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.172);
     color: white;
     background: linear-gradient(#FF79DA, #9356DC);
+    margin-top: 4%;
+    margin-bottom: 2%;
     padding: 4.5% 2%;
     text-align: center;
     width: 60%;
@@ -194,7 +197,7 @@ ul {
     font-weight: bold;
 
     padding: 4% 4% 3.5%;
-    margin: 6% 0 6% 4.5%;
+    margin: 4% 0 3.5% 4.5%;
 
     display: flex;
     flex-direction: row;
@@ -232,7 +235,7 @@ ul {
     font-weight: lighter;
     line-height:22px;
     width: 22px;
-    margin-left: -6.5%;
+    margin-left: -7%;
     text-align: center;
     vertical-align: middle;
 }
@@ -300,12 +303,10 @@ ul {
 
 .restaurants_cards i.coeur {
     color: white;
-
+    font-size: 130%;
     position: absolute;
-    bottom: 35px;
-    right: 15px;
-
-    font-size: x-large;
+    bottom: 30px;
+    right: 25px;
 }
 
 /* Commun à tous les coeurs */
@@ -392,7 +393,7 @@ footer {
     background-color: #f6f6f6;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
-    padding: 3%;
+    padding: 3% 4%;
     margin-top: -5%;
 
     display: flex;
@@ -408,6 +409,7 @@ footer {
 }
 
 #restaurants_main h1 i.coeur {
+    font-size: 80%;
     position: absolute;
     right: 5%;
     top: 13%;
@@ -415,7 +417,8 @@ footer {
 
 #restaurants_main h2 {
     color: grey;
-    font-size: 18px;
+    font-size: 16px;
+    margin-bottom: 2%;
 }
 
 
@@ -573,10 +576,10 @@ footer {
     box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.377);
     background: linear-gradient(#FF79DA, #9356DC);
     color: white;
-    margin: 8% auto;
+    margin: 8% auto 16%;
     padding: 4% 0;
     text-align: center;
-    width: 60%;
+    width: 52%;
 
     display: block;
 }
@@ -598,7 +601,7 @@ footer {
     }
 
     #lieu i {
-        margin-right: 9px;
+        margin-right: 15px;
     }
 
     .logo_header img {
@@ -635,6 +638,7 @@ footer {
     #explorer {
         border-radius: 50px;
         font-size: 140%;
+        margin: 1% 0;
         padding: 3% 2%;
         width: 40%;
     }
@@ -684,10 +688,16 @@ footer {
         width: 44%;
     }
 
+    /* Pages de restaurants Tablette */
+
     .banniere {
         background-size: cover;
         background-position: center;
         height: 300px;
+    }
+
+    #restaurants_main h1 i.coeur {
+        right: 2%;
     }
 
     .menus_items_hors_coche {
@@ -765,7 +775,7 @@ footer {
 
     h1,
     #restaurants_main h1 {
-        font-size: 160%;
+        font-size: 170%;
     }
 
     h2,
@@ -866,20 +876,16 @@ footer {
         font-size: 120%;
     }
 
-
     /* pages de restaurants Desktop */
 
     .logo_header a {
-        padding: 0 2%;
-    }
-
-    .logo_header a i {
-        font-size: 30px;
+        padding: 0 2.5%;
     }
 
     .banniere {
         height: 300px;
     }
+
     #restaurants_main {
         display: flex;
         flex-direction: row;
@@ -896,6 +902,10 @@ footer {
 
     #restaurants_main h1 {
         text-align: center;
+    }
+
+    #restaurants_main h1 i.coeur {
+        right: 32.5%;
     }
 
     #restaurants_main h2 {
@@ -973,7 +983,7 @@ footer {
 
     h1,
     #restaurants_main h1 {
-        font-size: 180%;
+        font-size: 200%;
     }
 
     h2,
@@ -1011,6 +1021,10 @@ footer {
     }
 
     /* pages de restaurants Large Desktop */
+
+    #restaurants_main h1 i.coeur {
+        right: 35.5%;
+    }
 
     .menus_items_hors_coche {
         height: 70px;
