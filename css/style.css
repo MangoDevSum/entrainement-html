@@ -1,5 +1,6 @@
 /* VERSION MOBILE */
 
+/* Page d'accueil */
 /* General */
 
 body {
@@ -20,11 +21,13 @@ body {
     position: fixed;
     bottom: 0;
     width: 100%;
+
     background-color: rgba(255, 255, 255, 0.96);
     z-index: 1;
 
     animation: disparaitre 2s 1 ease-in-out;
     animation-fill-mode: forwards;
+
     display: flex;
     justify-content: center;
 }
@@ -42,12 +45,11 @@ body {
     border-top: 1vw solid #FF79DA;
     border-right: 1vw solid #f6f6f6;
     border-bottom: 1vw solid #99E2D0;
-    width: 10vw;
-    height: 10vw;
+    width: 6vw;
+    height: 6vw;
 
     animation: spin 2s linear infinite;
 }
-
 
 a,
 a:visited {
@@ -55,11 +57,9 @@ a:visited {
     text-decoration: none;
 }
 
-
 ul {
     list-style-type: none;
 }
-
 
 .gris {
     background-color: #f6f6f6;
@@ -69,9 +69,7 @@ ul {
 
 .logo_header {
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.303);
-    /* N'appliquer le margin-bottom que sur accueil */
-    /* margin-bottom: 3px; */
-    margin: 0; /* padding dans img */
+    margin: 0;
 
     display: flex;
     justify-content: center;
@@ -79,33 +77,27 @@ ul {
     position: relative;
 }
 
-
 .logo_header a {
-    /* le mettre à gauche */
     position: absolute;
     left: 0;
-    padding: 0 5%; /* utiliser du padding pour faciliter le click */
 
-    /* centrer verticalement la flèche à l'intérieur */
     height: 100%;
+    padding: 0 5%;
+
     display: flex;
     align-items: center;
 }
 
-
 .logo_header a i {
     display: inline-block;
-    /* fontsize exceptionnellement relative pour accompagner le logo */
     font-size: 150%;
 }
 
-
 .logo_header img {
     height: 50%;
-    width: 50%;
     padding: 5% 0 3%;
+    width: 50%;
 }
-
 
 #lieu {
     background-color: #eaeaea;
@@ -117,11 +109,9 @@ ul {
     justify-content: center;
 }
 
-
 #lieu i {
     margin-right: 4%;
 }
-
 
 #entete_bas {
     padding: 10% 4% 12%;
@@ -133,19 +123,19 @@ ul {
     justify-content: center;
 }
 
-
 #entete_bas h1 {
-    margin: 0%;
     font-size: 160%;
+    margin: 0%;
     padding: 1% 10% 1.5%;
 }
-
 
 #decouvrez {
     margin: 0%;
     padding: 4% 0;
 }
 
+
+/* Bouton Explorer */
 
 #explorer {
     border-radius: 30px;
@@ -159,12 +149,9 @@ ul {
     width: 60%;
 }
 
-
 #explorer a {
     color: inherit;
-    /* color: white; */
 }
-
 
 #explorer:hover {
     filter: brightness(105%);
@@ -173,7 +160,7 @@ ul {
 
 
 /* main */
-/* section Fonctionnement */
+/* Section Fonctionnement */
 
 #Fonctionnement {
     padding: 8% 5% 11%;
@@ -184,12 +171,10 @@ ul {
     flex-direction: column;
 }
 
-
 #Fonctionnement h2 {
     margin: 0;
     padding: 5% 0 3%;
 }
-
 
 .fonctionnement_cards {
     border-radius: 25px;
@@ -204,7 +189,6 @@ ul {
     align-items: center;
 }
 
-
 .fonctionnement_cards i {
     color: #7e7e7e;
     font-size: 120%;
@@ -216,16 +200,13 @@ ul {
     vertical-align: middle;
 }
 
-
 .fonctionnement_cards:hover {
     background-color: #f5edff;
 }
 
-
 .fonctionnement_cards:hover i {
     color: #9356dc;
 }
-
 
 .numeros {
     background-color: #9356dc;
@@ -234,10 +215,10 @@ ul {
     font-size: smaller;
     font-weight: lighter;
     line-height:22px;
-    width: 22px;
     margin-left: -7%;
     text-align: center;
     vertical-align: middle;
+    width: 22px;
 }
 
 
@@ -250,7 +231,6 @@ ul {
     flex-direction: column;
 }
 
-
 .restaurants_cards {
     background-color: white;
     border-radius: 15px;
@@ -261,11 +241,10 @@ ul {
 }
 
 .restaurants_cards:hover {
-    filter: brightness(110%);
     box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.345);
+    filter: brightness(110%);
     transition: box-shadow 1s ease-out;
 }
-
 
 .restaurants_cards img {
     border-top-left-radius: 15px;
@@ -274,7 +253,6 @@ ul {
     object-fit: cover;
     width: 100%;
 }
-
 
 .restaurants_cards h4 {
     margin: 0;
@@ -286,12 +264,15 @@ ul {
     border-radius: 2px;
     color: #008766;
     padding: 6px 10px;
+
     position: absolute;
     top: 10px;
     right: 10px;
 }
 
+
 /* Commun à tous les coeurs */
+
 .coeur {
     color: #f6f6f6;
     -webkit-text-stroke: 2px black;
@@ -304,12 +285,14 @@ ul {
 .restaurants_cards i.coeur {
     color: white;
     font-size: 130%;
+
     position: absolute;
     bottom: 30px;
     right: 25px;
 }
 
 /* Commun à tous les coeurs */
+
 .coeur:hover,
 .restaurants_cards i.coeur:hover {
     color: transparent;
@@ -317,7 +300,6 @@ ul {
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
-   /* -webkit-text-fill-color:transparent; */
     -webkit-text-stroke: 0px black;
 }
 
@@ -334,22 +316,18 @@ footer {
     padding: 3% 7%;
 }
 
-
 #liens-footer {
     padding-left: 0;
 }
-
 
 #logo_texte {
     font-family: 'Shrikhand', cursive;
     margin: 2.5% 0;
 }
 
-
 #liens-footer li {
     padding: 1.4% 0;
 }
-
 
 #liens-footer li a {
     color: inherit;
@@ -359,7 +337,8 @@ footer {
     margin-right: 1.5%;
 }
 
-/* _________pages de Restaurants_________ */
+
+/* ___4 pages de restaurants___ */
 
 .banniere {
     margin: 0;
@@ -376,14 +355,17 @@ footer {
     background-position-y: 0%;
     height: 220px;
 }
+
 .img-note-enchantee {
     background-image: url('../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg');
     background-position-y: 40%;
 }
+
 .img-a-la-francaise {
     background-image: url('../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg');
     background-position-y: 20%;
 }
+
 .img-le-delice-des-sens {
     background-image: url('../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg');
     background-position-y: 20%;
@@ -399,7 +381,6 @@ footer {
     display: flex;
     flex-direction: column;
 }
-
 
 #restaurants_main h1 {
     font-family: 'Shrikhand', cursive;
@@ -421,7 +402,6 @@ footer {
     margin-bottom: 2%;
 }
 
-
 #restaurants_main hr {
     background-color: #99E2D0;
     border: none;
@@ -429,7 +409,6 @@ footer {
     margin: 0;
     width: 10%;
 }
-
 
 .menus_items {
     border-radius: 15px;
@@ -443,12 +422,14 @@ footer {
 
 .menus_items_hors_coche {
     padding: 3% 4%;
+
     display: inline-flex;
     flex-direction: row;
     justify-content: space-between;
     flex-grow: 1;
     overflow: hidden;
 }
+
 .hors_coche_gauche {
     flex-shrink: 1;
     flex-wrap: nowrap;
@@ -457,16 +438,18 @@ footer {
 
 .hors_coche_gauche p {
     font-weight: normal;
+
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
 }
 
 .hors_coche_droite {
+    padding-right: 3%;
+
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding-right: 3%;
 }
 
 .menus_items .coche {
@@ -474,6 +457,7 @@ footer {
 }
 
 /* hover des items de menus */
+
 .menus_items:hover .menus_items_hors_coche {
     width: 83%;
 }
@@ -489,19 +473,19 @@ footer {
 }
 
 .coche i {
-    display: block;
-    text-align: center;
-    color: #99E2D0;
     background-color: white;
     border-radius: 50%;
-    -webkit-text-stroke: 1px;
+    color: #99E2D0;
     font-size: 3vw;
     line-height: 5vw;
+    -webkit-text-stroke: 1px;
     width: 5vw;
+
+    display: block;
+    text-align: center;
 }
 
 @keyframes apparition_progressive {
-    /* TODO */
     from {
         transform: translateY(20px);
         filter: opacity(0%);
@@ -512,33 +496,30 @@ footer {
     }
 }
 
-.menus_items:nth-child(1) {
+.menus_items {
     animation: apparition_progressive 1.0s 1 ease-out;
-    animation-delay: 0.25s;
-    animation-fill-mode: both;
-}
-.menus_items:nth-child(2) {
-    animation: apparition_progressive 1.0s 1 ease-out;
-    animation-delay: 0.5s;
-    animation-fill-mode: both;
-}
-.menus_items:nth-child(3) {
-    animation: apparition_progressive 1.0s 1 ease-out;
-    animation-delay: 0.75s;
-    animation-fill-mode: both;
-}
-.menus_items:nth-child(4) {
-    animation: apparition_progressive 1.0s 1 ease-out;
-    animation-delay: 1.0s;
     animation-fill-mode: both;
 }
 
-/* Deux choix qui marchent:
-    - propriétés dans @keyframes appliquées par animation
-    - propritétés mises directement + transition
- */
+.menus_items:nth-child(1) {
+    animation-delay: 0.25s;
+}
+
+.menus_items:nth-child(2) {
+    animation-delay: 0.5s;
+}
+
+.menus_items:nth-child(3) {
+    animation-delay: 0.75s;
+}
+
+.menus_items:nth-child(4) {
+    animation-delay: 1.0s;
+}
+
 
 /* @keyframes & animation: */
+
 @keyframes tour_du_cadran {
     from {
         transform: rotate(0deg);
@@ -547,18 +528,10 @@ footer {
         transform: rotate(360deg);
     }
 }
+
 .menus_items:hover .coche i {
     animation: tour_du_cadran 0.5s 1 linear;
 }
-
-/* transition: */
-/* .menus_items .coche i {
-    transform: rotate(0deg);
-}
-.menus_items:hover .coche i {
-    transform: rotate(360deg);
-    transition: transform 0.5s;
-} */
 
 .menus_items h3 {
     margin: 1% 0;
@@ -569,8 +542,8 @@ footer {
     margin: 1% 0;
 }
 
+/* Bouton Commander */
 
-/* bouton commander */
 #commander {
     border-radius: 30px;
     box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.377);
@@ -594,7 +567,7 @@ footer {
 
 @media screen and (min-width: 767px) {
 
-    /* ACCUEIL */
+    /* Tablette Page d'accueil */
 
     body p {
         font-size: 140%;
@@ -608,7 +581,6 @@ footer {
         max-width: 350px;
         padding: 2% 0 1.5%;
     }
-
 
     h1,
     #restaurants_main h1 {
@@ -635,6 +607,8 @@ footer {
         padding: 6% 4% 7%;
     }
 
+    /* Tablette Bouton Explorer */
+
     #explorer {
         border-radius: 50px;
         font-size: 140%;
@@ -654,13 +628,11 @@ footer {
     .fonctionnement_cards {
         margin-bottom: 3%;
         padding: 2% 4%;
-
     }
 
     .fonctionnement_cards i {
         font-size: 140%;
     }
-
 
     .numeros {
         border-radius: 50%;
@@ -688,7 +660,7 @@ footer {
         width: 44%;
     }
 
-    /* Pages de restaurants Tablette */
+    /* Tablette 4 pages de restaurants */
 
     .banniere {
         background-size: cover;
@@ -715,6 +687,8 @@ footer {
     .hors_coche_droite p {
         padding-bottom: 2%;
     }
+
+    /* Tablette Bouton Commander */
 
     #commander {
         border-radius: 50px;
@@ -764,6 +738,9 @@ footer {
 /* ___Desktop___ */
 
 @media screen and (min-width: 992px) {
+
+    /* Desktop page d'accueil */
+
     body p {
         font-size: 100%;
     }
@@ -800,6 +777,9 @@ footer {
         padding: 2% 0;
     }
 
+
+    /* Desktop Bouton Explorer */
+
     #explorer {
         font-size: 110%;
         padding: 1.5% 0;
@@ -818,18 +798,16 @@ footer {
     }
 
     #liste_cards {
+        padding: 2%;
+
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        padding: 2%;
     }
 
     .fonctionnement_cards {
-        /* border-radius: 25px; */
-
-        padding: 1%;
         margin: 0;
-         /* margin: 3% 0 3% 2%; */
+        padding: 1%;
         width: 29%;
     }
 
@@ -851,9 +829,6 @@ footer {
 
     #Restaurants {
         padding: 2%;
-
-        /* display: flex;
-        flex-direction: column; */
     }
 
     .restaurants_cards img {
@@ -876,7 +851,7 @@ footer {
         font-size: 120%;
     }
 
-    /* pages de restaurants Desktop */
+    /* Desktop 4 pages de restaurants */
 
     .logo_header a {
         padding: 0 2.5%;
@@ -917,22 +892,24 @@ footer {
     }
 
     #restaurants_main section {
-        width: 30%;
         min-width: 360px;
+        width: 30%;
     }
+
     #restaurants_main section > div {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
     }
+
     #restaurants_main section > div > div {
         margin: 2% 0;
     }
 
     .menus_items_hors_coche {
+        height: 60px;
         padding-top: 15px;
         padding-bottom: 15px;
-        height: 60px;
     }
 
     .hors_coche_gauche {
@@ -958,6 +935,8 @@ footer {
         width: 20px;
     }
 
+    /* Desktop Bouton Commander */
+
     #commander {
         font-size: 110%;
         margin: 3% auto 1%;
@@ -966,8 +945,12 @@ footer {
     }
 }
 
+
 /* Large Desktop */
+
 @media screen and (min-width: 1400px) {
+
+    /* Large Desktop page d'accueil */
 
     .banniere {
         height: 500px;
@@ -1000,6 +983,9 @@ footer {
         padding: 1.5% 0;
     }
 
+
+    /* Large Desktop Bouton Explorer */
+
     #explorer {
         font-size: 130%;
         padding: 1.2% 0;
@@ -1020,7 +1006,7 @@ footer {
         font-size: 130%;
     }
 
-    /* pages de restaurants Large Desktop */
+    /* Large Desktop 4 pages de restaurants */
 
     #restaurants_main h1 i.coeur {
         right: 35.5%;
@@ -1029,6 +1015,8 @@ footer {
     .menus_items_hors_coche {
         height: 70px;
     }
+
+    /* Large Desktop Bouton Commander */
 
     #commander {
         font-size: 130%;
