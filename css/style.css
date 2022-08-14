@@ -924,6 +924,10 @@ footer {
         overflow: hidden;
     }
 
+    .hors_coche_gauche p {
+        margin: 0;
+    }
+
     .menus_items:hover .coche {
         width: 10%;
     }
