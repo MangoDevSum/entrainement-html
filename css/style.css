@@ -42,9 +42,9 @@ body {
 
     border: 1vw solid #9356DC;
     border-radius: 50%;
-    border-top: 1vw solid #FF79DA;
-    border-right: 1vw solid #f6f6f6;
-    border-bottom: 1vw solid #99E2D0;
+    border-top-color: #FF79DA;
+    border-right-color: #f6f6f6;
+    border-bottom-color: #99E2D0;
     width: 6vw;
     height: 6vw;
 
@@ -740,6 +740,12 @@ footer {
 @media screen and (min-width: 992px) {
 
     /* Desktop page d'accueil */
+
+    .loader {
+        border-width: 8px;
+        height: 70px;
+        width: 70px;
+    }
 
     body p {
         font-size: 100%;
